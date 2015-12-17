@@ -87,23 +87,182 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body{
+	margin:0;
+	background:url("http://i683.photobucket.com/albums/vv198/jailene1997/bg-body_zpsey8aoipe.jpg") no-repeat;
+	background-size: 1920px 1080px;
+}
+.page{
+	background:white no-repeat center top;
+	height: 125px;
+}
 
+/*------------------------- Font ------------------------*/ 
+@font-face {
+	font-family: 'Quartz';
+	src: url('QUARTZO.ttf') format('truetype');
+	src: url('QUARTZO.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 
+/*------------------------- Header ------------------------*/ 
+.header{
+	width:999px;
+	margin:0 auto;
+	height:100px;
+	padding:36px 10px 0;
+}
+.header a#logo{
+	display:block;
+	float:left;
+	outline:none;
+}
+.header a#logo img:hover{
+	filter:alpha(opacity=80);
+	opacity:0.8;
+}
+.header ul{
+	margin:0;
+	list-style:none;
+	padding:13px 0 0;
+	float:right;
+}
+.header ul li{
+	float:left;
+	margin:0 0 0 50px;
+}
+.header ul li img{
+	margin:-25px 0 0 0;
+}
+.header ul a,.header ul li a:hover{
+	color:grey;
+	text-decoration: none;
+}
+.header ul li a img:hover{
+	filter:alpha(opacity=80);
+	opacity:0.8;
+}
+.header ul li a{
+	font-size:19px;
+	color: black;
+	font-family: 'Quartz';
+}
 
+/*------------------------- Body ------------------------*/ 
 
+.body{
+	width:1100px;
+	margin:0 auto;
+	overflow:hidden;
+		padding: 25px 0 0;
+}.body ul.featured{
+	list-style:none;
+	overflow:hidden;
+		padding: 25px 0 0;
+}
+.body ul.featured li:nth-child(2){
+	margin:50px 0 0;
+}
+.body ul.featured li:nth-child(4){
+	margin:50px 0 0;
+}
+.body ul.featured li{
+	float:left;
+	padding:0;
+}
+.body ul.featured li a img:hover{
+	filter:alpha(opacity=80);
+	opacity:0.8;
+}
+.body p{
+	font-family: 'Quartz';
+	font-size:34px;
+	text-align:center;
+	color:#ffffff;
+	line-height:0;
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: 1.50px;
+}
+.body ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+.body ul li{
+	overflow:hidden;
+	padding:30px 0;
+}
+.body ul li div{
+	float:left;
+	margin:0 0 0 50px;
+}
+.body ul li div p{
+	line-height:22px;
+	font-family: 'Quartz';
+	font-size:30px;
+	color: black;
+	padding:0 0 90px;
+	-webkit-text-stroke-width: 0;
+	margin:0;
 
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.body ul.paging{
+	margin:15px 0 10px 210px;
+}
+.body ul.paging li{
+	float:left;
+	padding:0 5px;
+	background:none;
+}
+.body ul.paging li a{
+	text-decoration:none;
+	color:#ff7e0d;
+	font-family: arial;
+	font-size:12px;
+}
+/*------------------------- Bottom ------------------------*/ 
+.body ul.bottom{
+	list-style:none;
+	overflow:hidden;
+	padding:
+}
+.body ul.bottom li:first-child{
+	padding:90px 0 0;
+}
+.body ul.bottom li{
+	float:left;
+	padding:75px 0 0;
+}
+.body ul.bottom li div{
+	width: 300px;
+	text-align: center;
+	word-wrap: break-word;
+}
+.body ul.bottom li div a{
+	text-decoration: none;
+	color:white;
+	position: relative;
+	right: 25px;
+	font-size: 22px;
+	font-family: 'Quartz';
+	text-transform: uppercase;
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: 0.75px;
+}
+.body ul.bottom li div p{
+	font-family: 'Quartz';
+	color: black;
+	position: relative;
+	top: 25px;
+	left: 50px;
+	font-size:24px;
+	text-align: left;
+	width: 200px;
+	-webkit-text-stroke-color: grey;
+	-webkit-text-stroke-width: 1.00px; 
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
